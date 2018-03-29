@@ -5,7 +5,7 @@ var katzDeliLine = [];
 function takeANumber (katzDeli){
   var i = 1;
   katzDeli.push(i);
-  // giveing number i++ for the next person
+  i++;
   return `Welcome, ${newName}. You are number ${katzDeli.length} in line.`;
 }
 
