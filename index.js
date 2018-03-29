@@ -4,8 +4,7 @@ var i = 1;
 
 function takeANumber (){
   katzDeliLine.push(i);
-  i++;
-  return `You are number ${katzDeli.length} in line.`;
+  return `You are number ${i++} in line.`;
 }
 
 //Build a function nowServing. This function should return the first person in line and then remove that individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
