@@ -9,11 +9,11 @@ function takeANumber (){
 
 //Build a function nowServing. This function should return the first person in line and then remove that individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
 
-function nowServing(katzDeli){
-  if (katzDeli.length < 1) {
+function nowServing(){
+  if (katzDeliLine.length < 1) {
     return "There is nobody waiting to be served!";
-  } else  if (katzDeli.length > 0) {
-    return `Currently serving ${katzDeli.shift()}.`;
+  } else  if (katzDeliLine.length > 0) {
+    return `Currently serving ${katzDeliLine.shift()}.`;
   }
 }
 
